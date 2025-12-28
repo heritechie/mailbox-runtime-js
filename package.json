@@ -1,0 +1,13 @@
+{
+  "name": "mailbox-runtime-js",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A minimal mailbox-based runtime for actor-style, message-driven services",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typedoc": "^0.28.15"
+  },
+  "scripts": {
+    "docs:api": "typedoc"
+  }
+}
