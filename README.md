@@ -30,3 +30,8 @@ Early design phase. Documentation-first. No runtime implementation yet.
 Discipline over convenience.  
 Clarity over cleverness.  
 Boring runtime behavior over magic.
+
+## Documentation
+
+- Conceptual docs: /docs
+- API reference: https://heritechie.github.io/mailbox-runtime-js/
