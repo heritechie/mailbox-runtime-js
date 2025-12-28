@@ -1,0 +1,22 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+
+  "entryPoints": ["packages/core/index.ts"],
+
+  "out": "docs/api",
+
+  "excludePrivate": true,
+  "excludeInternal": true,
+  "excludeProtected": false,
+
+  "includeVersion": false,
+
+  "categorizeByGroup": false,
+  "defaultCategory": "Core API",
+
+  "readme": "none",
+
+  "plugin": [],
+
+  "tsconfig": "tsconfig.json"
+}
