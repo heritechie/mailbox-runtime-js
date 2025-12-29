@@ -5,6 +5,7 @@
   "description": "A minimal mailbox-based runtime for actor-style, message-driven services",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^18.19.0",
     "tsx": "^4.21.0",
     "typedoc": "^0.28.15"
@@ -13,9 +14,13 @@
     "test": "npm run test:mailbox && npm run test:runtime",
     "test:mailbox": "tsx packages/core/__tests__/inmemory-mailbox.test.ts",
     "test:runtime": "tsx packages/core/__tests__/mailbox-runtime.test.ts",
+    "test:ingress": "tsx packages/http/__tests__/express-ingress.test.ts",
     "docs:api": "typedoc"
   },
   "engines": {
     "node": ">=16"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
