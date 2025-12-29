@@ -31,6 +31,10 @@ Discipline over convenience.
 Clarity over cleverness.  
 Boring runtime behavior over magic.
 
+## Contracts
+
+- [HTTP Ingress Contract](./docs/contracts/http.md)
+
 ## Documentation
 
 - Conceptual docs: /docs
