@@ -40,3 +40,4 @@ Boring runtime behavior over magic.
 
 - [HTTP Ingress Contract](./docs/contracts/http.md)
 - [Runtime Contract](./docs/contracts/runtime.md)
+- [Mailbox Contract](./docs/contracts/mailbox.md)
