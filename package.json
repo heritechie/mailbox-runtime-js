@@ -5,9 +5,17 @@
   "description": "A minimal mailbox-based runtime for actor-style, message-driven services",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@types/node": "^18.19.0",
+    "tsx": "^4.21.0",
     "typedoc": "^0.28.15"
   },
   "scripts": {
+    "test": "npm run test:mailbox && npm run test:runtime",
+    "test:mailbox": "tsx packages/core/__tests__/inmemory-mailbox.test.ts",
+    "test:runtime": "tsx packages/core/__tests__/mailbox-runtime.test.ts",
     "docs:api": "typedoc"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
