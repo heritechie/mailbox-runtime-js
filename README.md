@@ -31,11 +31,12 @@ Discipline over convenience.
 Clarity over cleverness.  
 Boring runtime behavior over magic.
 
-## Contracts
-
-- [HTTP Ingress Contract](./docs/contracts/http.md)
-
 ## Documentation
 
 - Conceptual docs: /docs
 - API reference: https://heritechie.github.io/mailbox-runtime-js/
+
+## Contracts
+
+- [HTTP Ingress Contract](./docs/contracts/http.md)
+- [Runtime Contract](./docs/contracts/runtime.md)
